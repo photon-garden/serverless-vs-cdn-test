@@ -8,7 +8,7 @@ async fn main() -> Result<(), Error> {
 pub async fn handler(_req: Request) -> Result<Response<Body>, Error> {
     Ok(Response::builder()
         .status(StatusCode::OK)
-        .header("Content-Type", "application/json")
+        .header("Content-Type", "text/html")
         .body(
             include_str!("../index.html")
             .into(),

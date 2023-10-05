@@ -649,7 +649,6 @@ dependencies = [
 name = "serverless_vs_cdn_test"
 version = "0.1.0"
 dependencies = [
- "serde_json",
  "tokio",
  "vercel_runtime",
 ]
